@@ -1,6 +1,11 @@
-# ECG-Classifier
+<div align="center">
+    <h1>ECG-Classifier</h1>
+    <img src="Pics/1.gif">
+</div>
 
-![](https://github.com/CyC2018/ECG-Classifier/blob/master/Pics/1.gif)
+
+
+## Introduction
 
 The six electrocardiogram (ecg) waveforms was classified by this classifier. 
 
@@ -21,13 +26,18 @@ Our method extracts the characteristics needed for classification by positioning
 
 Our classification accuracy was 98.58%, which was significantly improved compared with most classifiers.
 
-![](https://github.com/CyC2018/ECG-Classifier/blob/master/Pics/result-chart.png)
 
-![](https://github.com/CyC2018/ECG-Classifier/blob/master/Pics/result-table.png)
+
+<div align="center">
+    <img src="Pics/result-chart.png">
+    <img src="Pics/result-table.png">
+</div>
 
 # Database
 
-![](https://github.com/CyC2018/ECG-Classifier/blob/master/Pics/ecg.png)
+<div align="center">
+    <img src="Pics/ecg.png">
+</div>
 
 The ecg data were obtained from the [MIT-BIH Arrhythmia Database](https://www.physionet.org/physiobank/database/mitdb/) which contains the following three types of data:
 
@@ -37,7 +47,7 @@ The ecg data were obtained from the [MIT-BIH Arrhythmia Database](https://www.ph
 
 Annotations Data and Signals Data is binary. You can install the official WFDB software toolkit to transform these binary files into text files.
 
-## rdsamp
+### rdsamp
 
 Used to transform the Signals files into text files.
 
@@ -86,13 +96,19 @@ rdann -r mitdb/200 -a atr -f 5:10 -t 10:30 -v >200.txt
 
 Used to remove the interference of labor frequency. The interference performance as small burr in electrocardiogram, which is caused by the 50Hz alternating current and its multiple harmonics.
 
-![](https://github.com/CyC2018/ECG-Classifier/blob/master/Pics/noise.png)
+<div align="center">
+    <img src="Pics/noise.png">
+</div>
 
 ### Baseline offset filtering
 
 Used to remove baseline offset. Baseline shift is caused by motion of the human body and the electrode foundation bad noise, motion artifact and click contact caused by breathing, in ecg waveform to overlay a slow variation.
 
-![](https://github.com/CyC2018/ECG-Classifier/blob/master/Pics/line_drift.png)
+
+
+<div align="center">
+    <img src="Pics/line_drift.png">
+</div>
 
 ## Implementation
 
@@ -100,7 +116,9 @@ Our method directly uses the R wave information manually labeled in the data.
 
 ### Waveform Interception
 
-![](https://github.com/CyC2018/ECG-Classifier/blob/master/Pics/wave.png)
+<div align="center">
+    <img src="Pics/wave.png">
+</div>
 
 ### Similarity Measurement
 
