@@ -119,8 +119,9 @@ Our method directly uses the R wave information manually labeled in the data.
 <div align="center">
     <img src="Pics/wave.png">
 </div>
+### 特征提取
 
-### Similarity Measurement
+![](Pics/3.png)
 
 ### Bag Decision Tree
 
