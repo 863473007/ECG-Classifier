@@ -1,6 +1,6 @@
 <div align="center">
     <h1>ECG-Classifier</h1>
-    <img src="Pics/1.gif">
+    <img src="Pics/1.gif" width="600px">
 </div>
 
 
