@@ -104,8 +104,6 @@ Used to remove the interference of labor frequency. The interference performance
 
 Used to remove baseline offset. Baseline shift is caused by motion of the human body and the electrode foundation bad noise, motion artifact and click contact caused by breathing, in ecg waveform to overlay a slow variation.
 
-
-
 <div align="center">
     <img src="Pics/line_drift.png">
 </div>
@@ -119,6 +117,7 @@ Our method directly uses the R wave information manually labeled in the data.
 <div align="center">
     <img src="Pics/wave.png">
 </div>
+
 ### 特征提取
 
 ![](Pics/3.png)
